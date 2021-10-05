@@ -14,7 +14,7 @@ The use of deepfakes in fake news, hoaxes and even financial fraud have garnered
 
 ## Paper
 
-MesoNet-4 was developed by a team of three researchers in 2018 [[2]](#2) is an attempt at detecting face tampering in videos.
+MesoNet-4 was developed by a team of three researchers in 2018 [[2]](#2) in an attempt to detect deepfakes, in a novel, deep-learning approach. 
 
 ### Dataset
 
