@@ -10,7 +10,7 @@ Deepfakes have become a growing issue, especially with the development of more r
 
 ![Obama Gif](Readme_Data/Obama_DF.gif)
 
-The use of deepfakes in fake news, hoaxes and even financial fraud have garnered, much needed attention, both politically and academically, to try to limit their use and propagation.
+The use of deepfakes in fake news, hoaxes and even financial fraud have garnered, much needed attention, both politically and academically, to try to limit their use and propagation. One such attempt, is the **MesoNet**, a neural network architecture, created by Darius Afchar &amp; al. in 2018 [[2]](#2) to help stem the deepfake tide.
 
 ## Paper
 
@@ -25,3 +25,7 @@ The use of deepfakes in fake news, hoaxes and even financial fraud have garnered
 _Ian J. Goodfellow &amp; al. (2014). 
 Generative Adversarial Networks.
 Advances in Neural Information Processing Systems 27_
+
+<a id="2">[2]</a> 
+_Darius Afchar &amp; al. (2018). 
+MesoNet: a Compact Facial Video Forgery Detection Network_
