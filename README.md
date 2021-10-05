@@ -19,8 +19,10 @@ MesoNet-4 was developed by a team of three researchers in 2018 [[2]](#2) in an a
 ### Dataset
 
 The datasets used in the paper and in the project are the following :
-**- Deepfake dataset :** composed of 175 rushes of forged videos. The videos were then compressed using the H.264 codec. Approximately 50 faces were extracted per scene
-**- Face2Face dataset :** 300 videos were used for training out of more than of thousand.
+
+- **Deepfake dataset :** composed of 175 rushes of forged videos. The videos were then compressed using the H.264 codec. Approximately 50 faces were extracted per scene
+
+- **Face2Face dataset :** 300 videos were used for training out of more than of thousand.
 
 
 ### Model architecture
