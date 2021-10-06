@@ -8,7 +8,9 @@ Building a MesoNet4 network &amp; deploying it online
 
 Deepfakes have become a growing issue, especially with the development of more robust **Generative Adversarial Networks (GANs)**. Altough GANs were first introduced in 2014 [[1]](#1), the recent advances in computer vision have allowed them to create synthetic images and videos of celebrities or politicians.
 
-![Obama Gif](Readme_Data/Obama_DF.gif)
+<p align="center">
+  <img src= Readme_Data/Obama_DF.gif/>
+</p>
 
 The use of deepfakes in fake news, hoaxes and even financial fraud have garnered, much needed attention, both politically and academically, to try to limit their use and propagation. One such attempt, is the **MesoNet**, a neural network architecture, created by Darius Afchar &amp; al. in 2018 [[2]](#2) to help stem the deepfake tide.
 
@@ -38,10 +40,14 @@ Meso-4 Architecture           |  Inception modules for MesoInception-4
 The first layers of the network are convolutions and pooling, which are followed by a dense network with one hidden layer. The convolutional layers use ReLU activation functions; as well as batch normalization and dropout, to regularize their output.
 
 #### MesoInception-4
-In this variant, the first two convolutional layers are replaced by a variant of the **inception module** [[3]](#3). 
+In this variant, the first two convolutional layers are replaced by an **inception module** [[3]](#3).
 
-### Theoretical results
+### Theoretical results (To be completed)
+The Meso-4 architecture achieved a classification score of approx. 0.9 according to the paper.
 
+<p align="center">
+  <img src= Readme_Data/results.png/>
+</p>
 
 
 ## Project
