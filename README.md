@@ -27,12 +27,18 @@ The datasets used in the paper and in the project are the following :
 
 ### Model architecture
 
+The paper suggests two possible architectures, which have achieved the best classification results among all tests. They are based on networks for image classification (alternating between convolutions and pooling for **feature extraction** and dense network for **classification**).
 
 Meso-4 Architecture           |  Inception modules for MesoInception-4
 :-------------------------:|:-------------------------:
 ![Meso4](Readme_Data/meso4.png) |  ![Mesoinc](Readme_Data/mesoinception4.png)
 
 
+#### Meso-4
+The first layers of the network are convolutions and pooling, which are followed by a dense network with one hidden layer. The convolutional layers use ReLU activation functions; as well as batch normalization and dropout, to regularize their output.
+
+#### MesoInception-4
+In this variant, the first two convolutional layers are replaced by a variant of the **inception module** [[3]](#3)
 
 ### Theoretical results
 
@@ -52,3 +58,7 @@ Advances in Neural Information Processing Systems 27_
 <a id="2">[2]</a> 
 _Darius Afchar &amp; al. (2018). 
 MesoNet: a Compact Facial Video Forgery Detection Network_
+
+<a id="3">[3]</a> 
+_Szegedy &amp; al. (2015). 
+Going deeper with convolutions_
