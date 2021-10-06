@@ -38,9 +38,10 @@ Meso-4 Architecture           |  Inception modules for MesoInception-4
 The first layers of the network are convolutions and pooling, which are followed by a dense network with one hidden layer. The convolutional layers use ReLU activation functions; as well as batch normalization and dropout, to regularize their output.
 
 #### MesoInception-4
-In this variant, the first two convolutional layers are replaced by a variant of the **inception module** [[3]](#3)
+In this variant, the first two convolutional layers are replaced by a variant of the **inception module** [[3]](#3). 
 
 ### Theoretical results
+
 
 
 ## Project
